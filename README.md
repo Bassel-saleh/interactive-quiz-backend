@@ -174,7 +174,4 @@ Developed by Bassel Saleh.
 Email: basselh26@gmail.com
 Feel free to reach out with questions or suggestions!
 
-## License
-This project is licensed under the MIT License.
-
 ##### Let me know if you'd like any changes or additional details!
