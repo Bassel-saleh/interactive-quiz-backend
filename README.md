@@ -24,20 +24,24 @@ cd interactive-quiz-backend
 python3 -m venv venv
 source venv/bin/activate
 ```
+
 3. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
-4. Set up the database:
-
+4. Run this command on your terminal
+```bash
+export FLASK_APP="app:create_app"
+```
+5. Set up the database:
 
 ```bash
 flask db init
 flask db migrate -m "Initial migration"
 flask db upgrade
 ```
-5. Run the development server:
+6. Run the development server:
 
 ```bash
 python run.py
