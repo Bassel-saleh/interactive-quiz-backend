@@ -51,6 +51,7 @@ You can configure the application using environment variables or by editing the 
 
 SECRET_KEY: Used for securing JWT tokens.
 DATABASE_URL: Database connection string (default is SQLite).
+you can edit <mark>add_questions.py</mark> to change the quiz content
 ## API Endpoints
 #### Authentication
 * Register:
