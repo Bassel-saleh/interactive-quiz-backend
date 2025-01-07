@@ -15,7 +15,7 @@ Flask and related dependencies (see requirements.txt)
 1. Clone the repository:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Bassel-saleh/interactive-quiz-backend.git
 cd interactive-quiz-backend
 ```
 2. Create and activate a virtual environment:
