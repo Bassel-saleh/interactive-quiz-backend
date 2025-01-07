@@ -44,7 +44,7 @@ flask db upgrade
 6. Run the development server:
 
 ```bash
-python run.py
+python3 run.py
 ```
 ## Configuration
 You can configure the application using environment variables or by editing the config.py file. Here are the key settings:
