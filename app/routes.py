@@ -5,6 +5,11 @@ from .models import db, User, Question, QuizResult
 
 bp = Blueprint("routes", __name__)
 
+# Homepage
+@bp.route("/", methods=["GET"])
+def home():
+    return "Welcome to the Interactive Quiz API!\n", 200
+
 # User registration
 @bp.route("/register", methods=["POST"])
 def register():
